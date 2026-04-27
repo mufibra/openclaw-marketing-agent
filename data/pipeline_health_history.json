@@ -1,0 +1,145 @@
+{
+  "checks": [
+    {
+      "timestamp": "2026-03-28T16:30:51.862303",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T16:32:43.017458",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T18:34:40.546460",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T20:26:56.106770",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T20:56:45.947401",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T21:26:47.945134",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T21:56:53.994420",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T22:26:56.706564",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T22:56:48.747164",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-28T23:26:48.196069",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 1
+    },
+    {
+      "timestamp": "2026-03-30T10:02:45.137102",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-03-31T08:33:38.834875",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T01:45:54.220148",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T02:15:10.019297",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T02:45:06.569992",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T03:15:08.500771",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T22:44:09.335735",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-03T23:13:51.473639",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-04T09:50:16.595174",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    },
+    {
+      "timestamp": "2026-04-06T10:56:37.121881",
+      "status": "degraded",
+      "api_reachable": false,
+      "error_count": 0,
+      "warning_count": 2
+    }
+  ],
+  "last_check": "2026-04-06T10:56:37.121881"
+}
