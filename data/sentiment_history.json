@@ -1,0 +1,743 @@
+{
+  "scans": [
+    {
+      "timestamp": "2026-03-28T15:24:12.899464",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 121,
+          "neutral": 45,
+          "positive": 34
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.605,
+          "neutral_ratio": 0.225,
+          "positive_ratio": 0.17
+        },
+        "overall_sentiment_score": -0.435,
+        "average_confidence": 0.8402,
+        "category_breakdown": {
+          "billing": {
+            "negative": 43,
+            "neutral": 7,
+            "positive": 6,
+            "total": 56
+          },
+          "feature_request": {
+            "negative": 6,
+            "neutral": 10,
+            "positive": 7,
+            "total": 23
+          },
+          "product_defect": {
+            "negative": 25,
+            "neutral": 10,
+            "positive": 6,
+            "total": 41
+          },
+          "shipping": {
+            "negative": 26,
+            "neutral": 10,
+            "positive": 7,
+            "total": 43
+          },
+          "cancellation": {
+            "negative": 10,
+            "neutral": 1,
+            "positive": 4,
+            "total": 15
+          },
+          "account_access": {
+            "negative": 11,
+            "neutral": 7,
+            "positive": 4,
+            "total": 22
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "billing",
+            "negative_ratio": 0.7679
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.6667
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6098
+          }
+        ],
+        "high_priority_negative_count": 21
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.605,
+        "current_negative_ratio": 0.605,
+        "delta": 0.0,
+        "message": "First scan \u2014 establishing baseline."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-03-28T15:24:36.979484",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 121,
+          "neutral": 45,
+          "positive": 34
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.605,
+          "neutral_ratio": 0.225,
+          "positive_ratio": 0.17
+        },
+        "overall_sentiment_score": -0.435,
+        "average_confidence": 0.8453,
+        "category_breakdown": {
+          "billing": {
+            "negative": 43,
+            "neutral": 7,
+            "positive": 6,
+            "total": 56
+          },
+          "feature_request": {
+            "negative": 6,
+            "neutral": 10,
+            "positive": 7,
+            "total": 23
+          },
+          "product_defect": {
+            "negative": 25,
+            "neutral": 10,
+            "positive": 6,
+            "total": 41
+          },
+          "shipping": {
+            "negative": 26,
+            "neutral": 10,
+            "positive": 7,
+            "total": 43
+          },
+          "cancellation": {
+            "negative": 10,
+            "neutral": 1,
+            "positive": 4,
+            "total": 15
+          },
+          "account_access": {
+            "negative": 11,
+            "neutral": 7,
+            "positive": 4,
+            "total": 22
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "billing",
+            "negative_ratio": 0.7679
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.6667
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6098
+          }
+        ],
+        "high_priority_negative_count": 21
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.605,
+        "current_negative_ratio": 0.605,
+        "delta": 0.0,
+        "severity": "stable",
+        "message": "Sentiment stable: 60.5% (baseline: 60.5%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-03-28T21:55:52.024612",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 121,
+          "neutral": 45,
+          "positive": 34
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.605,
+          "neutral_ratio": 0.225,
+          "positive_ratio": 0.17
+        },
+        "overall_sentiment_score": -0.435,
+        "average_confidence": 0.8428,
+        "category_breakdown": {
+          "billing": {
+            "negative": 43,
+            "neutral": 7,
+            "positive": 6,
+            "total": 56
+          },
+          "feature_request": {
+            "negative": 6,
+            "neutral": 10,
+            "positive": 7,
+            "total": 23
+          },
+          "product_defect": {
+            "negative": 25,
+            "neutral": 10,
+            "positive": 6,
+            "total": 41
+          },
+          "shipping": {
+            "negative": 26,
+            "neutral": 10,
+            "positive": 7,
+            "total": 43
+          },
+          "cancellation": {
+            "negative": 10,
+            "neutral": 1,
+            "positive": 4,
+            "total": 15
+          },
+          "account_access": {
+            "negative": 11,
+            "neutral": 7,
+            "positive": 4,
+            "total": 22
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "billing",
+            "negative_ratio": 0.7679
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.6667
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6098
+          }
+        ],
+        "high_priority_negative_count": 21
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.605,
+        "current_negative_ratio": 0.605,
+        "delta": 0.0,
+        "severity": "stable",
+        "message": "Sentiment stable: 60.5% (baseline: 60.5%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-03-30T10:01:10.497019",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 107,
+          "neutral": 56,
+          "positive": 37
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.535,
+          "neutral_ratio": 0.28,
+          "positive_ratio": 0.185
+        },
+        "overall_sentiment_score": -0.35,
+        "average_confidence": 0.8428,
+        "category_breakdown": {
+          "product_defect": {
+            "negative": 28,
+            "neutral": 6,
+            "positive": 10,
+            "total": 44
+          },
+          "shipping": {
+            "negative": 27,
+            "neutral": 12,
+            "positive": 6,
+            "total": 45
+          },
+          "feature_request": {
+            "negative": 6,
+            "neutral": 8,
+            "positive": 8,
+            "total": 22
+          },
+          "billing": {
+            "negative": 24,
+            "neutral": 17,
+            "positive": 7,
+            "total": 48
+          },
+          "account_access": {
+            "negative": 12,
+            "neutral": 7,
+            "positive": 5,
+            "total": 24
+          },
+          "cancellation": {
+            "negative": 10,
+            "neutral": 6,
+            "positive": 1,
+            "total": 17
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6364
+          },
+          {
+            "category": "shipping",
+            "negative_ratio": 0.6
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.5882
+          }
+        ],
+        "high_priority_negative_count": 22
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.605,
+        "current_negative_ratio": 0.535,
+        "delta": -0.07,
+        "severity": "positive",
+        "message": "Positive trend: negative sentiment at 53.5% (baseline: 60.5%, -7.0%). Improving."
+      },
+      "overall_severity": "positive"
+    },
+    {
+      "timestamp": "2026-03-31T08:05:13.262245",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 111,
+          "neutral": 56,
+          "positive": 33
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.555,
+          "neutral_ratio": 0.28,
+          "positive_ratio": 0.165
+        },
+        "overall_sentiment_score": -0.39,
+        "average_confidence": 0.8318,
+        "category_breakdown": {
+          "product_defect": {
+            "negative": 28,
+            "neutral": 8,
+            "positive": 9,
+            "total": 45
+          },
+          "shipping": {
+            "negative": 21,
+            "neutral": 14,
+            "positive": 8,
+            "total": 43
+          },
+          "billing": {
+            "negative": 28,
+            "neutral": 10,
+            "positive": 5,
+            "total": 43
+          },
+          "cancellation": {
+            "negative": 14,
+            "neutral": 7,
+            "positive": 2,
+            "total": 23
+          },
+          "account_access": {
+            "negative": 13,
+            "neutral": 8,
+            "positive": 2,
+            "total": 23
+          },
+          "feature_request": {
+            "negative": 7,
+            "neutral": 9,
+            "positive": 7,
+            "total": 23
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "billing",
+            "negative_ratio": 0.6512
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6222
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.6087
+          }
+        ],
+        "high_priority_negative_count": 27
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.5875,
+        "current_negative_ratio": 0.555,
+        "delta": -0.0325,
+        "severity": "stable",
+        "message": "Sentiment stable: 55.5% (baseline: 58.8%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-04-03T01:46:33.484758",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 118,
+          "neutral": 55,
+          "positive": 27
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.59,
+          "neutral_ratio": 0.275,
+          "positive_ratio": 0.135
+        },
+        "overall_sentiment_score": -0.455,
+        "average_confidence": 0.8388,
+        "category_breakdown": {
+          "account_access": {
+            "negative": 14,
+            "neutral": 10,
+            "positive": 2,
+            "total": 26
+          },
+          "product_defect": {
+            "negative": 30,
+            "neutral": 13,
+            "positive": 5,
+            "total": 48
+          },
+          "shipping": {
+            "negative": 23,
+            "neutral": 10,
+            "positive": 9,
+            "total": 42
+          },
+          "feature_request": {
+            "negative": 9,
+            "neutral": 12,
+            "positive": 4,
+            "total": 25
+          },
+          "billing": {
+            "negative": 29,
+            "neutral": 8,
+            "positive": 7,
+            "total": 44
+          },
+          "cancellation": {
+            "negative": 13,
+            "neutral": 2,
+            "positive": 0,
+            "total": 15
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.8667
+          },
+          {
+            "category": "billing",
+            "negative_ratio": 0.6591
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.625
+          }
+        ],
+        "high_priority_negative_count": 27
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.581,
+        "current_negative_ratio": 0.59,
+        "delta": 0.009,
+        "severity": "stable",
+        "message": "Sentiment stable: 59.0% (baseline: 58.1%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-04-03T22:44:39.373102",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 118,
+          "neutral": 55,
+          "positive": 27
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.59,
+          "neutral_ratio": 0.275,
+          "positive_ratio": 0.135
+        },
+        "overall_sentiment_score": -0.455,
+        "average_confidence": 0.8401,
+        "category_breakdown": {
+          "account_access": {
+            "negative": 14,
+            "neutral": 10,
+            "positive": 2,
+            "total": 26
+          },
+          "product_defect": {
+            "negative": 30,
+            "neutral": 13,
+            "positive": 5,
+            "total": 48
+          },
+          "shipping": {
+            "negative": 23,
+            "neutral": 10,
+            "positive": 9,
+            "total": 42
+          },
+          "feature_request": {
+            "negative": 9,
+            "neutral": 12,
+            "positive": 4,
+            "total": 25
+          },
+          "billing": {
+            "negative": 29,
+            "neutral": 8,
+            "positive": 7,
+            "total": 44
+          },
+          "cancellation": {
+            "negative": 13,
+            "neutral": 2,
+            "positive": 0,
+            "total": 15
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.8667
+          },
+          {
+            "category": "billing",
+            "negative_ratio": 0.6591
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.625
+          }
+        ],
+        "high_priority_negative_count": 27
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.5825,
+        "current_negative_ratio": 0.59,
+        "delta": 0.0075,
+        "severity": "stable",
+        "message": "Sentiment stable: 59.0% (baseline: 58.2%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-04-04T09:51:36.781281",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 113,
+          "neutral": 49,
+          "positive": 38
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.565,
+          "neutral_ratio": 0.245,
+          "positive_ratio": 0.19
+        },
+        "overall_sentiment_score": -0.375,
+        "average_confidence": 0.8418,
+        "category_breakdown": {
+          "shipping": {
+            "negative": 23,
+            "neutral": 15,
+            "positive": 8,
+            "total": 46
+          },
+          "billing": {
+            "negative": 26,
+            "neutral": 11,
+            "positive": 12,
+            "total": 49
+          },
+          "feature_request": {
+            "negative": 8,
+            "neutral": 9,
+            "positive": 7,
+            "total": 24
+          },
+          "account_access": {
+            "negative": 15,
+            "neutral": 4,
+            "positive": 5,
+            "total": 24
+          },
+          "product_defect": {
+            "negative": 32,
+            "neutral": 4,
+            "positive": 5,
+            "total": 41
+          },
+          "cancellation": {
+            "negative": 9,
+            "neutral": 6,
+            "positive": 1,
+            "total": 16
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.7805
+          },
+          {
+            "category": "account_access",
+            "negative_ratio": 0.625
+          },
+          {
+            "category": "cancellation",
+            "negative_ratio": 0.5625
+          }
+        ],
+        "high_priority_negative_count": 24
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.5836,
+        "current_negative_ratio": 0.565,
+        "delta": -0.0186,
+        "severity": "stable",
+        "message": "Sentiment stable: 56.5% (baseline: 58.4%)."
+      },
+      "overall_severity": "stable"
+    },
+    {
+      "timestamp": "2026-04-06T10:57:05.967130",
+      "data_source": "p8_synthetic",
+      "analysis_method": "pre_labeled",
+      "metrics": {
+        "total_analyzed": 200,
+        "sentiment_distribution": {
+          "negative": 117,
+          "neutral": 47,
+          "positive": 36
+        },
+        "sentiment_ratios": {
+          "negative_ratio": 0.585,
+          "neutral_ratio": 0.235,
+          "positive_ratio": 0.18
+        },
+        "overall_sentiment_score": -0.405,
+        "average_confidence": 0.8426,
+        "category_breakdown": {
+          "cancellation": {
+            "negative": 13,
+            "neutral": 7,
+            "positive": 2,
+            "total": 22
+          },
+          "product_defect": {
+            "negative": 28,
+            "neutral": 10,
+            "positive": 6,
+            "total": 44
+          },
+          "billing": {
+            "negative": 27,
+            "neutral": 7,
+            "positive": 9,
+            "total": 43
+          },
+          "account_access": {
+            "negative": 19,
+            "neutral": 8,
+            "positive": 1,
+            "total": 28
+          },
+          "shipping": {
+            "negative": 20,
+            "neutral": 7,
+            "positive": 11,
+            "total": 38
+          },
+          "feature_request": {
+            "negative": 10,
+            "neutral": 8,
+            "positive": 7,
+            "total": 25
+          }
+        },
+        "worst_categories": [
+          {
+            "category": "account_access",
+            "negative_ratio": 0.6786
+          },
+          {
+            "category": "product_defect",
+            "negative_ratio": 0.6364
+          },
+          {
+            "category": "billing",
+            "negative_ratio": 0.6279
+          }
+        ],
+        "high_priority_negative_count": 32
+      },
+      "spike_info": {
+        "spike_detected": false,
+        "baseline_negative_ratio": 0.5813,
+        "current_negative_ratio": 0.585,
+        "delta": 0.0037,
+        "severity": "stable",
+        "message": "Sentiment stable: 58.5% (baseline: 58.1%)."
+      },
+      "overall_severity": "stable"
+    }
+  ],
+  "last_scan": "2026-04-06T10:57:05.967130",
+  "baseline_negative_ratio": 0.605
+}
