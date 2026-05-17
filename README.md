@@ -6,7 +6,8 @@
 [![OpenClaw](https://img.shields.io/badge/OpenClaw-2026.3-orange.svg)](https://openclaw.ai)
 [![Claude Opus 4.6](https://img.shields.io/badge/LLM-Claude%20Opus%204.6-blueviolet.svg)](https://anthropic.com)
 [![Telegram](https://img.shields.io/badge/Channel-Telegram-26A5E4.svg)](https://telegram.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+[![Xquik Agentic Readiness](https://nothumansearch.ai/badge/xquik.com.svg)](https://nothumansearch.ai/site/xquik.com)
 
 A 24/7 autonomous marketing intelligence agent that wraps 9 prior portfolio projects into a single always-on system. Built on [OpenClaw](https://openclaw.ai) with Claude Opus 4.6, it monitors marketing data, detects anomalies, scores leads, tracks competitors, and delivers alerts via Telegram on a cron schedule.
 
@@ -95,6 +96,27 @@ Simulated Machine Payments Protocol server. External AI agents can pay per-call 
 
 ---
 
+## Optional X/Twitter Feedback Loop
+
+Install [TweetClaw](https://github.com/Xquik-dev/tweetclaw) when this marketing agent needs public X/Twitter context beside GA4, CRM, support-ticket, and competitor signals:
+
+```bash
+openclaw plugins install @xquik/tweetclaw
+openclaw config set tools.alsoAllow '["tweetclaw"]'
+```
+
+Use it after the sentiment, competitive-intel, and segment-campaign skills produce a lead, anomaly, or launch recommendation:
+
+- Scrape tweets, search tweets, and search tweet replies for public market feedback.
+- Export followers and run user lookup to qualify influencer or account-level segments.
+- Monitor tweets and webhooks for brand, competitor, campaign, or product mentions.
+- Run giveaway draws from replies when a campaign uses public X engagement.
+- Post tweets, post tweet replies, direct messages, media upload, and media download only after human review of the exact account, target, text, and media.
+
+Keep the Xquik API key in OpenClaw plugin configuration or a secret manager. Do not store it in `.env.example`, skill prompts, Telegram messages, reports, screenshots, or run logs. The [ClawHub listing](https://clawhub.ai/plugins/@xquik/tweetclaw) is useful for browsing; npm remains the canonical install source for `@xquik/tweetclaw`.
+
+---
+
 ## Tech Stack
 
 | Layer | Technology |
@@ -173,7 +195,7 @@ openclaw-marketing-agent/
 
 ```bash
 # Clone
-git clone https://github.com/mufibra23/openclaw-marketing-agent.git
+git clone https://github.com/mufibra/openclaw-marketing-agent.git
 cd openclaw-marketing-agent
 
 # Python environment
@@ -253,14 +275,14 @@ This capstone project integrates 9 prior projects:
 
 | Project | Repository | What P10 Uses |
 |---------|-----------|---------------|
-| P1 | [marketing-intelligence-agent](https://github.com/mufibra23/marketing-intelligence-agent) | BigQuery GA4 pipeline, anomaly detection |
-| P2 | [ai-competitive-intel](https://github.com/mufibra23/ai-competitive-intel) | Citation analysis, brand sentiment |
-| P4 | [lead-scoring-system](https://github.com/mufibra23/lead-scoring-system) | XGBoost model, SHAP explainability |
-| P5 | [customer-segmentation-clv](https://github.com/mufibra23/customer-segmentation-clv) | K-means clusters, CLV predictions |
-| P6 | [marketing-attribution-agent](https://github.com/mufibra23/marketing-attribution-agent) | 8 attribution models, LSTM |
-| P7 | [marketing-data-pipeline](https://github.com/mufibra23/marketing-data-pipeline) | FastAPI, ETL, BigQuery integration |
-| P8 | [nlp-customer-intelligence](https://github.com/mufibra23/nlp-customer-intelligence) | DistilBERT sentiment, BERTopic |
-| P9 | [unified-marketing-intelligence](https://github.com/mufibra23/unified-marketing-intelligence) | Campaign trigger logic |
+| P1 | [marketing-intelligence-agent](https://github.com/mufibra/marketing-intelligence-agent) | BigQuery GA4 pipeline, anomaly detection |
+| P2 | ai-competitive-intel | Citation analysis, brand sentiment |
+| P4 | [lead-scoring-system](https://github.com/mufibra/lead-scoring-system) | XGBoost model, SHAP explainability |
+| P5 | [customer-segmentation-clv](https://github.com/mufibra/customer-segmentation-clv) | K-means clusters, CLV predictions |
+| P6 | [marketing-attribution-agent](https://github.com/mufibra/marketing-attribution-agent) | 8 attribution models, LSTM |
+| P7 | [marketing-data-pipeline](https://github.com/mufibra/marketing-data-pipeline) | FastAPI, ETL, BigQuery integration |
+| P8 | [nlp-customer-intelligence](https://github.com/mufibra/nlp-customer-intelligence) | DistilBERT sentiment, BERTopic |
+| P9 | [unified-marketing-intelligence](https://github.com/mufibra/unified-marketing-intelligence) | Campaign trigger logic |
 
 ---
 
